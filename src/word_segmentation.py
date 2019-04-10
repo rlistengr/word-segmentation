@@ -89,5 +89,5 @@ def word_segment(input_str):
     return result[dim - 1]
 
 
-chinese_dict = dict_generate('data/综合类中文词库.xlsx')# 从词典库中读取的单词
+chinese_dict = dict_generate('../data/综合类中文词库.xlsx')# 从词典库中读取的单词
 word_max_len = max(map(len, chinese_dict))
